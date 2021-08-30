@@ -34,3 +34,5 @@ One difficult problem that needed to be conquered is filtering all of our data i
 
 ![alt text](/reverse_haversine_mathematics.png "Logo Title Text 1")
 
+
+Additionally, this algorithm is used to decluster our frontend. For example, think of an appartment complex with over 50 nodes. Instead of servering all of these densly arranged nodes, one per 50 meteres served. This saves on Google Maps calculations, and improves UX. 
