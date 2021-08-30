@@ -25,4 +25,12 @@ This was a unique variable to take into consideration. The difference in prices 
 
 Now we have a predicted price, and the estimated error on this price prediction done purle mathematically. 100 % - error is the percentage of utilization, which is what percent of our overall model location will make up. The rest will be done using our AI-Model, see next section:
 
-## AI Model (Julius to complete) 
+### AI Model (Julius to complete) 
+
+
+### Location Based Search Optimization and Declustering Algorithm
+
+One difficult problem that needed to be conquered is filtering all of our data in a linear way by location. This requires some spherical geometry. As all location data is geo-encoded in lon and lat, an upper an lower bound of those two coordinates needs to be caclulated and used. Via some algebra done on the haversine formula which relates the surface area of a sphere to angles from the radius, we are able to find these max/min deviations as seen below:
+
+![alt text](/reverse-haversine-formula.png "Logo Title Text 1")
+
