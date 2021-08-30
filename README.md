@@ -3,5 +3,5 @@ Property valuation tool for unlisted homes using a variety of tools and software
 
 THIS REPRESENTS A CLOSED REPOSITORY
 
-Check out the demo at:   [DEMO LINK]("https://ai-real-estate-valuator.herokuapp.com")
+Check out the demo at:  <"https://ai-real-estate-valuator.herokuapp.com">
 
