@@ -32,5 +32,5 @@ Now we have a predicted price, and the estimated error on this price prediction 
 
 One difficult problem that needed to be conquered is filtering all of our data in a linear way by location. This requires some spherical geometry. As all location data is geo-encoded in lon and lat, an upper an lower bound of those two coordinates needs to be caclulated and used. Via some algebra done on the haversine formula which relates the surface area of a sphere to angles from the radius, we are able to find these max/min deviations as seen below:
 
-![alt text](/reverse-haversine-formula.png "Logo Title Text 1")
+![alt text](/reverse_haversine_mathematics.png "Logo Title Text 1")
 
