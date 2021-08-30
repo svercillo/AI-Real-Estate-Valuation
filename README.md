@@ -21,10 +21,8 @@ There were a variety of variables as mentioned taken into consideration for the 
 * Rankings of nearest schools
 
 #### Location
-This was a unique variable to take into consideration. Basically what was done here was each individual area code was given a new exponential function for how important close data points or properties are in affecting property value. I.e. in some area codes, houses slightly outside of the neighborhood affect the current property value.
-All of these unique exponetial funcitons are calculated using a secondary model.
+This was a unique variable to take into consideration. The difference in prices of two properties incrases as the distance increases. This relationship follows a polynomial relationship fairly well. After standardizing our data, and removing outliers, our algothim runs to find a specific polynomial line of best fit for every single node in our DB. When loading our model a weighted average of these lines is taken following a standarized inverse proportionality function. This average is then used to caculate estimated deviation in the price according to the distance away each node is from the prediction point. Summing the averages in an inversely proprotion way, we have the average estimated error on our price prediction. The price prediction is done using the inverse proporionallity function afore-mentioned as well. 
 
+Now we have a predicted price, and the estimated error on this price prediction done purle mathematically. 100 % - error is the percentage of utilization, which is what percent of our overall model location will make up. The rest will be done using our AI-Model, see next section:
 
-
-## Web Scrapper
-
+## AI Model (Julius to complete) 
